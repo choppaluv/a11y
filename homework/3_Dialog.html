@@ -65,7 +65,7 @@
       let closeButton = document.getElementById('close');
       let dialog = document.getElementById('dialog');
 
-      var origFocus;
+      //var origFocus;
       settingButton.addEventListener('click', openDialog);
       settingButton.addEventListener('keypress', function(e) {
         if (e.keyCode == 13) openDialog();
@@ -82,7 +82,7 @@
       
       function closeDialog() {
         dialog.close();
-        origFocus.focus();
+        //origFocus.focus();
       }
     </script>
   </body>
